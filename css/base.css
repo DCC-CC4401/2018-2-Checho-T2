@@ -5,3 +5,6 @@ body{
 .navbar-light .nav-link:hover, .navbar-light .nav-link:focus, .navbar-light .nav-link:active{
     background-color: #9fa0a1;
 }
+.btn-secondary:hover{
+    background-color: #6f42c1;
+}
