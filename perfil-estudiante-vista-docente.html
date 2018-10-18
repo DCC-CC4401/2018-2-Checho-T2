@@ -14,14 +14,6 @@
     <title>U-coevaluaciones</title>
 </head>
 <body>
-    <script type="text/javascript">
-    document.addEventListener("DOMContentLoaded", function () {
-        console.log("hola")
-    })
-</script>
-        <script type="text/javascript">
-console.log("hola")
-</script>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -34,9 +26,6 @@ console.log("hola")
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Mis coevaluaciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Todos mis cursos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Mi perfil</a>
@@ -71,146 +60,142 @@ console.log("hola")
                 </div>
                 <div class="col-md-10">
                     <div class="row">
-                        <div class="col-md-4">
-                            <picture>
-                                <source srcset="..." type="image/svg+xml">
-                                <img src="..." class="img-fluid">
-                            </picture>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Nombre:</li>
-                                <li class="list-group-item">RUT:</li>
-                                <li class="list-group-item">Mail: <a href='#'>mail@aqui.cl</a></li>
-                            </ul>
+                        <div class="col-md-12">
+                            <div class=" my-2 float-left">
+                                <h4>U-cursitos Pérez González</h4>
+                                <h6 class="text-right">12.345.678-9</h6>
+                                <h6 class="text-right">u-cursitos@ing.uchile.cl</h6>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-10">
-                        <h4 class="mt-4">Últimos Cursos</h4>
-                        <div class="accordion" id="accordionExample">
-                            <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
-                                                data-target="#collapseOne" aria-expanded="true"
-                                                aria-controls="collapseOne">
-                                            Ingenieria 2
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                     data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <thead>
-                                            <tr>
-                                                <th scope="col">Evaluación</th>
-                                                <th scope="col">Nota 1</th>
-                                                <th scope="col">Nota 2</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>65</td>
-                                                <td>50</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>40</td>
-                                                <td>70</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>55</td>
-                                                <td>56</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="mt-4">Últimos Cursos</h4>
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                    data-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                Ingenieria 2
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col">Evaluación</th>
+                                                    <th scope="col">Nota 1</th>
+                                                    <th scope="col">Nota 2</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>65</td>
+                                                    <td>50</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>40</td>
+                                                    <td>70</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>55</td>
+                                                    <td>56</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapseTwo" aria-expanded="false"
-                                                aria-controls="collapseTwo">
-                                            Ingenieria 1
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                     data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <thead>
-                                            <tr>
-                                                <th scope="col">Evaluación</th>
-                                                <th scope="col">Nota 1</th>
-                                                <th scope="col">Nota 2</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>65</td>
-                                                <td>50</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>40</td>
-                                                <td>70</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>55</td>
-                                                <td>56</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapseTwo" aria-expanded="false"
+                                                    aria-controls="collapseTwo">
+                                                Ingenieria 1
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col">Evaluación</th>
+                                                    <th scope="col">Nota 1</th>
+                                                    <th scope="col">Nota 2</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>65</td>
+                                                    <td>50</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>40</td>
+                                                    <td>70</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>55</td>
+                                                    <td>56</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapseThree" aria-expanded="false"
-                                                aria-controls="collapseThree">
-                                            Base de Datos
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                     data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <thead>
-                                            <tr>
-                                                <th scope="col">Evaluación</th>
-                                                <th scope="col">Nota 1</th>
-                                                <th scope="col">Nota 2</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>65</td>
-                                                <td>50</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>40</td>
-                                                <td>70</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>55</td>
-                                                <td>56</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree">
+                                                Base de Datos
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col">Evaluación</th>
+                                                    <th scope="col">Nota 1</th>
+                                                    <th scope="col">Nota 2</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>65</td>
+                                                    <td>50</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>40</td>
+                                                    <td>70</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>55</td>
+                                                    <td>56</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
